@@ -1,0 +1,29 @@
+#main {
+    background-color: burlywood;
+    padding: 50px;
+    margin: 20px;
+}
+
+#content {
+    border: 5px solid orangered;
+    background-color: lightsalmon;
+    color: white;
+    margin: 25px 0;
+    padding: 25px 45px 25px 15px;
+}
+
+#content div {
+    margin-bottom: 12px;
+}
+
+#content #quote {
+    margin: 25px 0 20px 45px;
+}
+
+#content #quote div {
+    margin-bottom: 5px;
+}
+
+#content #quote #quote_citation {
+    margin-left: 25px;
+}

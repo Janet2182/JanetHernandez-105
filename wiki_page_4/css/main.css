@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+nav {
+    margin-inline: 200px;
+}
+
+img section.1 {
+    float: right;
+}

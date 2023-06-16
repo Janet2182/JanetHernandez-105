@@ -1,0 +1,48 @@
+#fun, #fun caption, #fun th, #fun td {
+    border-collapse: collapse;
+    padding: 12px;
+    border-bottom: 1px solid #e0e5e3;
+    padding: 10px 20px;
+}
+#fun th {
+    color: white;
+}
+
+#fun {
+   border-bottom: 2px solid #36a381;
+   font-family: Arial, sans-serif;
+}
+
+#fun {
+    margin-bottom: 48px;
+}
+#colspan {
+    background-color: #36a381;
+}
+#funrow {
+    background-color: white;
+    color: black;
+}
+#funcell, #fun tbody tr:nth-of-type(2){
+    background-color: rgb(243, 243, 243);
+    color: #36a381;
+}
+#fun tbody tr:nth-of-type(3) {
+    background-color: white;
+}
+
+#basic th {
+    padding: 0 25px 12px 0;
+}
+#basic td {
+    padding: 4px 0;
+}
+
+table tr th:first-child {
+
+    border-radius: 1em 0 0 0;
+
+}
+table tr th:last-child {
+    border-radius: 0 1em  0 0;
+}

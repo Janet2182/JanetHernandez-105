@@ -1,0 +1,1 @@
+$('#login_forgot_password').text('Create Password/Forgot Password');

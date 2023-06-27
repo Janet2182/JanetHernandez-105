@@ -1,0 +1,52 @@
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-areas:
+    ". header ."
+    ". form .";
+    display:contents;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: form;
+    outline: 1px solid;
+    padding: 5px 30px 40px;
+    outline-color: lightgray;
+    background-color: white;
+}
+
+ #services_id {
+    margin-block: 40px;
+}
+div, label {
+    margin-top: 40px;
+}
+div, label, #services_id {
+    margin-block-end: 0;
+}
+
+select {
+    padding: 10px;
+    color: gray;
+}
+
+label, textarea{
+    display: inline-block;
+}
+
+label {
+    padding: 10px;
+    display:contents;
+    outline-width: 2px solid;
+}
+
+

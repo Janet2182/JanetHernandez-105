@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+h6 {
+    color: rgb(55, 243, 55);
+}
+
+a {
+    color: white;
+    margin-left: -50px;
+    padding-top: 20px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+input[type=submit] {
+    background-color: rgb(55, 243, 55);
+    border: 0;
+    padding: 10px 70px;
+    text-align: center;
+}
+
+input[type=submit2] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}

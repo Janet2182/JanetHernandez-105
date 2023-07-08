@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #040405;
+    width: min-content;
+}
+a[id=sign_up] {
+    background-color: rgb(23, 99, 231);
+}
+
+#hero {
+    background-image: url(../images/backgroundLarge.jpg);
+    background-size: cover;
+}
+
+nav {
+    padding: 24px 36px;
+    background: linear-gradient(to bottom, #000000DD, #00000000);
+}
+
+nav img {
+    width: 60px;
+}
+#email {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+nav a:hover {
+    background-color: rgb(93, 92, 92);
+}
+
+#hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    color: #00ed82;
+}
+
+#hero_content p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#hero_content img {
+    margin: 25px 0;
+}
+
+.btn-link {
+    display: inline-block;
+    background-color: rgb(23, 99, 231);
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 6px;
+    width: 300px;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+.btn-link:hover {
+    opacity: 0.5;
+}
+
+.small-link {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.small_link {
+    font-size: 14px;
+    margin-top: 16px;
+    color: white;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h5 {
+    color: white;
+    padding: 10px;
+    font-size: x-small;
+}
+
+footer img {
+    width: 50px;
+    justify-content: center;
+}
+
+.tiny_link {
+    display: block;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#footer_center p {
+    color: white;
+    font-size: 22px;
+}
+
+#cards_section {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#cards_section h2, #cards_section p, #cards_section h6, #cards_section h4 {
+    color: white;
+    display: inline;
+    padding: 10px;
+}
+#trending {
+    text-decoration: underline;
+}
+
+#cards_container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: 100px;
+    gap: 8px;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+#cards_container div {
+    padding-left: 24px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: 4px solid #040405;
+    outline: 4px solid transparent;
+    transition:
+    outline 0.5s,
+    opacity 0.5s;
+}
+#cards_container div:hover {
+    outline-color: grey;
+    opacity: 0.6;
+}
+
+#wakanda_forever {
+    background-image: url(../images/wakandaForever.jpg);
+}
+#andor {
+    background-image: url(../images/andor.jpg);
+}
+#turning_red {
+    background-image: url(../images/turningRed.jpg);
+}
+#fire_of_love {
+    background-image: url(../images/fireOfLove.jpg);
+}
+#encanto {
+    background-image: url(../images/encanto.jpg);
+}
+#zootopia {
+    background-image: url(../images/zootopiaPlus.jpg);
+}
+
+@media screen and (max-width: 480px) {
+    .btn-link {
+        width: 20px;
+}
+}
